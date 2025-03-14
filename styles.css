@@ -18,18 +18,18 @@ h1 {
     color: hwb(0 100% 0%);
 }
 
-.recipe.choices {
+.recipe.choice {
     font-family: "Arial", "Verdana", "Tahoma" serif, sans-serif, monospace;
     font-size: 44px;
     text-align: center;
     color: white;
     list-style-type: none;
 
-    a:link {text-decoration: none;}
-    a:link {color: oklch(0.78 0.18 74.49)};
-    a:visited {color: rgb(184, 149, 117); /* visited link is black (reverse the color back to black)*/
-    a:hover {color:hsl(0, 0%, 100%);}   /* mouse over link (blue when mouse over)*/
-    a:active {color:#0000FF;}  /* selected link (blue in the split second which you loading the page.)*/
+    a:link {text-decoration: none}
+    a:link {color: oklch(0.78 0.18 74.49)}
+    a:visited {color: rgb(184, 149, 117)} /* visited link is black (reverse the color back to black)*/
+    a:hover {color:hsl(0, 0%, 100%)};   /* mouse over link (blue when mouse over)*/
+    a:active {color:#0000FF};  /* selected link (blue in the split second which you loading the page.)*/
 }
 
 img {
@@ -43,14 +43,8 @@ img {
     width: 500px;
     height: auto;
     padding: 8x;
-    margin: 8px;
+    margin: 50px;
     border-style: double;
     border-width: 15px;
-    border-radius: 30px;
+    border-radius: 15px;
 }
-
-
-
-
-
-
