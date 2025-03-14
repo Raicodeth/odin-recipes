@@ -2,11 +2,20 @@
     background-color: oklch(0.28 0.03 252.75) ;
 }
 
+.Landing {
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    border-radius: auto;
+    border-width: 30px;
+    padding: 200px 15px;
+}
+
 h1 {
     font-family: "Arial", "Verdana", "Tahoma", serif, sans-serif, monospace;
     font-size: 88px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: hwb(0 100% 0%);
 }
 
 .recipe.choices {
@@ -17,17 +26,28 @@ h1 {
     list-style-type: none;
 
     a:link {text-decoration: none;}
-    a:link {color: oklch(0.78 0.18 74.49)}
-    a:visited {color:#000000;} /* visited link is black (reverse the color back to black)*/
-    a:hover {color:#ffffff;}   /* mouse over link (blue when mouse over)*/
+    a:link {color: oklch(0.78 0.18 74.49)};
+    a:visited {color: rgb(184, 149, 117); /* visited link is black (reverse the color back to black)*/
+    a:hover {color:hsl(0, 0%, 100%);}   /* mouse over link (blue when mouse over)*/
     a:active {color:#0000FF;}  /* selected link (blue in the split second which you loading the page.)*/
 }
 
 img {
-    width: 1000px;
-    height: auto;
+    width: 300px;
+    height: 500;
 }
 
+.RName {
+    box-sizing: border-box;   /* border-color: white;border-style:dashed; border-width: 5px;*/
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    padding: 8x;
+    margin: 8px;
+    border-style: double;
+    border-width: 15px;
+    border-radius: 30px;
+}
 
 
 
